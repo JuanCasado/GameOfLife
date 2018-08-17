@@ -6,8 +6,10 @@ This simulation was made with the cocos2d-x c++ engine. It simulates the Conway'
 The main purpose of the simulation was to practice and lear the basics of the cocos engine to be able to do some other and more complex projects with it in the future.
 The code basically extends the main classes of the engine adding them new properties and functionality.
 
+Project done by Juan Casado Ballesteros
+
 [Mr.BlissfulGrin](http://www.mrblissfulgrin.com "mrblissfulgrin")
 
-[cocos2d-x](http://www.cocos2d-x.org "cocos2d-x")
+[Cocos2d-x c++ game engine](http://www.cocos2d-x.org "Cocos2d-x c++ game engine")
 
 ![logo](./proj.ios_mac/ios/Images.xcassets/AppIcon-2.appiconset/icon_128x128@2x.png "Logo")
