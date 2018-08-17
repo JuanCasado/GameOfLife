@@ -1,0 +1,19 @@
+﻿  DebugDraw.cpp
+  DetourDebugDraw.cpp
+  DetourCrowd.cpp
+  DetourLocalBoundary.cpp
+  DetourObstacleAvoidance.cpp
+  DetourPathCorridor.cpp
+..\DetourCrowd\DetourObstacleAvoidance.cpp(334): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  DetourPathQueue.cpp
+  DetourProximityGrid.cpp
+  DetourTileCache.cpp
+  DetourTileCacheBuilder.cpp
+  DetourAlloc.cpp
+  DetourCommon.cpp
+  DetourNavMesh.cpp
+  DetourNavMeshBuilder.cpp
+  DetourNavMeshQuery.cpp
+  DetourNode.cpp
+  fastlz.c
+  librecast.vcxproj -> \\Mac\Home\Documents\ME\cocos2d\GameOfLife\proj.win32\Debug.win32\librecast.lib

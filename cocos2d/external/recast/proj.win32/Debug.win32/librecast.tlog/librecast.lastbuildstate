@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v140_xp:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=
+Debug|Win32|\\Mac\Home\Documents\ME\cocos2d\GameOfLife\proj.win32\|
