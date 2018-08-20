@@ -29,7 +29,7 @@ distribution.
 
 #if defined(ANDROID_NDK) || defined(__BORLANDC__) || (CC_TARGET_PLATFORM == CC_PLATFORM_BLACKBERRY)
 #   include <ctype.h>
-#   include <limits.h>
+#   include "limits.h"
 #   include <stdio.h>
 #   include <stdlib.h>
 #   include <string.h>

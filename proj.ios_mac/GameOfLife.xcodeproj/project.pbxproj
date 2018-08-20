@@ -38,6 +38,10 @@
 		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
+		8C4612852129D3E9008E7158 /* ih.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C4612832129D3E9008E7158 /* ih.png */; };
+		8C4612862129D3E9008E7158 /* ih.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C4612832129D3E9008E7158 /* ih.png */; };
+		8C4612872129D3E9008E7158 /* il.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C4612842129D3E9008E7158 /* il.png */; };
+		8C4612882129D3E9008E7158 /* il.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C4612842129D3E9008E7158 /* il.png */; };
 		8C88044321259923006D3257 /* Cell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C88043B21259923006D3257 /* Cell.cpp */; };
 		8C88044421259923006D3257 /* Cell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C88043B21259923006D3257 /* Cell.cpp */; };
 		8C88044521259923006D3257 /* GameOfLife.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C88043C21259923006D3257 /* GameOfLife.cpp */; };
@@ -143,6 +147,8 @@
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8C4612832129D3E9008E7158 /* ih.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ih.png; path = ../../PinPongBar/Resources/ih.png; sourceTree = "<group>"; };
+		8C4612842129D3E9008E7158 /* il.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = il.png; path = ../../PinPongBar/Resources/il.png; sourceTree = "<group>"; };
 		8C88043B21259923006D3257 /* Cell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cell.cpp; sourceTree = "<group>"; };
 		8C88043C21259923006D3257 /* GameOfLife.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameOfLife.cpp; sourceTree = "<group>"; };
 		8C88043D21259923006D3257 /* SideMenu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SideMenu.hpp; sourceTree = "<group>"; };
@@ -293,6 +299,8 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8C4612832129D3E9008E7158 /* ih.png */,
+				8C4612842129D3E9008E7158 /* il.png */,
 				8C88045021259A51006D3257 /* SideMenu.png */,
 				8C88044F21259A51006D3257 /* Slider_Back.png */,
 				8C88044D21259A51006D3257 /* Slider_PressBar.png */,
@@ -455,6 +463,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4612852129D3E9008E7158 /* ih.png in Resources */,
 				1A88B2641FC3D9C9005C14AE /* Images.xcassets in Resources */,
 				8C88045C21259A51006D3257 /* SideMenu.png in Resources */,
 				8C88045421259A51006D3257 /* SliderNode_Press.png in Resources */,
@@ -464,6 +473,7 @@
 				8C88045821259A51006D3257 /* SliderNode_Normal.png in Resources */,
 				3EACC98F19EE6D4300EB3C5E /* res in Resources */,
 				8C88045221259A51006D3257 /* SliderNode_Disable.png in Resources */,
+				8C4612872129D3E9008E7158 /* il.png in Resources */,
 				1AF87B891F6F781D007BE51C /* LaunchScreenBackground.png in Resources */,
 				1AF87B881F6F781D007BE51C /* LaunchScreen.storyboard in Resources */,
 				8C88045E21259A51006D3257 /* WhiteRect.png in Resources */,
@@ -474,8 +484,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4612882129D3E9008E7158 /* il.png in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
 				8C88045521259A51006D3257 /* SliderNode_Press.png in Resources */,
+				8C4612862129D3E9008E7158 /* ih.png in Resources */,
 				8C88045321259A51006D3257 /* SliderNode_Disable.png in Resources */,
 				8C88045F21259A51006D3257 /* WhiteRect.png in Resources */,
 				8C88046021259C12006D3257 /* Images.xcassets in Resources */,
@@ -613,7 +625,7 @@
 		5087E76D17EB910900C73F5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -647,7 +659,7 @@
 		5087E76E17EB910900C73F5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -680,6 +692,7 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -731,6 +744,7 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";

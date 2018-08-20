@@ -28,8 +28,8 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
-#include <spine/Cocos2dAttachmentLoader.h>
-#include <spine/extension.h>
+#include "spine/Cocos2dAttachmentLoader.h"
+#include "spine/extension.h"
 #include <spine/AttachmentVertices.h>
 
 USING_NS_CC;

@@ -28,7 +28,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 #include <spine/SkeletonTwoColorBatch.h>
-#include <spine/extension.h>
+#include "spine/extension.h"
 #include <algorithm>
 
 USING_NS_CC;

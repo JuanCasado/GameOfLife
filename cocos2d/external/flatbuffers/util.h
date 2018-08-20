@@ -35,7 +35,7 @@
 #include <direct.h>
 #else
 #include <sys/stat.h>
-#include <limits.h>
+#include "limits.h"
 #endif
 
 namespace flatbuffers {

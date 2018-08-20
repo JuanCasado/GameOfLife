@@ -19,7 +19,7 @@
 # include <stdlib.h>
 # include <time.h>
 
-# include <openssl/e_os2.h>
+# include "openssl/e_os2.h"
 
 # ifndef OPENSSL_NO_STDIO
 #  include <stdio.h>

@@ -244,7 +244,7 @@ typedef ssl_context SSL;
 #if defined(LWS_USE_MBEDTLS)
 #include <mbedtls/ssl.h>
 #else
-#include <openssl/ssl.h>
+#include "openssl/ssl.h"
 #include <openssl/err.h>
 #endif /* not USE_MBEDTLS */
 #endif /* not USE_POLARSSL */

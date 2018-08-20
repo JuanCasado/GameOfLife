@@ -33,7 +33,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
-#include <limits.h>
+#include "limits.h"
 #include <string.h>
 
 NS_CC_EXT_BEGIN
