@@ -97,7 +97,8 @@ bool SideMenu::init(void){
     slider->loadProgressBarTexture("Slider_PressBar.png");
     slider->setAnchorPoint(Vec2(0, 0.5));
     slider->setPosition(Vec2(background->getContentSize().width*1.49,background->getContentSize().height*5));
-    slider->setContentSize(buttonSize);
+    auto scale = buttonSize.width / slider->getContentSize().width;
+    slider->setContentSize(Size(slider->getContentSize().width*scale, slider->getContentSize().height*scale));
     slider->setMaxPercent(100);
     slider->addTouchEventListener([&](Ref* sender, ui::Widget::TouchEventType type){
         if (type ==ui::Widget::TouchEventType::ENDED){
@@ -105,9 +106,8 @@ bool SideMenu::init(void){
             this->grid->setVel(sl->getPercent());
         }
     });
-    auto move = MoveTo::create(1.6, Vec2(background->getContentSize().width*1.49,background->getContentSize().height*0.29));
-    slider->runAction(move);
-    this->addChild(slider,2);
+    slider->setPosition(Vec2(smallBtt->getPosition().x, smallBtt->getPosition().y-background->getContentSize().height*0.1));
+    smallBtt->addChild(slider,2);
     
     menuItems.pushBack(MenuItemLabel::create(label));
     menuItems.pushBack(pause);

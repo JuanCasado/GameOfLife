@@ -53,7 +53,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     }
     director->setAnimationInterval(1.0f / 60);
 
-    glview->setDesignResolutionSize(designResolutionSize.width, designResolutionSize.height, ResolutionPolicy::EXACT_FIT);
+    glview->setDesignResolutionSize(designResolutionSize.width, designResolutionSize.height, ResolutionPolicy::SHOW_ALL);
 
     auto frameSize = glview->getFrameSize();
     if (frameSize.height > mediumResolutionSize.height){

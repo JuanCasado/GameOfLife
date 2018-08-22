@@ -14,7 +14,7 @@
 class Grid : public cocos2d::Scene{
 public:
     enum gridSize{Large, Medium, Small};
-    static Grid * createGrid(gridSize size=Medium, int line_width=1, int margin=10);
+    static Grid * createGrid(gridSize size=Medium, int line_width=1, int margin=30);
     void setGridSize(Grid::gridSize size);
     void changeState();
     bool getState();

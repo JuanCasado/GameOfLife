@@ -67,16 +67,16 @@ void Grid::setGridSize(Grid::gridSize size){
     this->size = size;
     switch (size) {
         case Large:
-            rows = 25;
-            cols = 25;
+            rows = 22;
+            cols = 22;
             break;
         case Medium:
-            rows = 18;
-            cols = 18;
+            rows = 16;
+            cols = 16;
             break;
         case Small:
-            rows = 11;
-            cols = 11;
+            rows = 10;
+            cols = 10;
             break;
         default:
             rows = 1;
