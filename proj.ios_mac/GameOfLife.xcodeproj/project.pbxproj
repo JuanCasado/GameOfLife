@@ -42,6 +42,8 @@
 		8C4612862129D3E9008E7158 /* ih.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C4612832129D3E9008E7158 /* ih.png */; };
 		8C4612872129D3E9008E7158 /* il.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C4612842129D3E9008E7158 /* il.png */; };
 		8C4612882129D3E9008E7158 /* il.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C4612842129D3E9008E7158 /* il.png */; };
+		8C4DD19B212EC481004F06DF /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C4DD199212EC481004F06DF /* Icon-57.png */; };
+		8C4DD19C212EC481004F06DF /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C4DD199212EC481004F06DF /* Icon-57.png */; };
 		8C88044321259923006D3257 /* Cell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C88043B21259923006D3257 /* Cell.cpp */; };
 		8C88044421259923006D3257 /* Cell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C88043B21259923006D3257 /* Cell.cpp */; };
 		8C88044521259923006D3257 /* GameOfLife.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C88043C21259923006D3257 /* GameOfLife.cpp */; };
@@ -151,6 +153,7 @@
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		8C4612832129D3E9008E7158 /* ih.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ih.png; path = ../../PinPongBar/Resources/ih.png; sourceTree = "<group>"; };
 		8C4612842129D3E9008E7158 /* il.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = il.png; path = ../../PinPongBar/Resources/il.png; sourceTree = "<group>"; };
+		8C4DD199212EC481004F06DF /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57.png"; sourceTree = "<group>"; };
 		8C88043B21259923006D3257 /* Cell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cell.cpp; sourceTree = "<group>"; };
 		8C88043C21259923006D3257 /* GameOfLife.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameOfLife.cpp; sourceTree = "<group>"; };
 		8C88043D21259923006D3257 /* SideMenu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SideMenu.hpp; sourceTree = "<group>"; };
@@ -248,6 +251,7 @@
 				1A88B2631FC3D9C9005C14AE /* Images.xcassets */,
 				1AF87B471F6F77D6007BE51C /* AppController.h */,
 				1AF87B481F6F77D6007BE51C /* AppController.mm */,
+				8C4DD199212EC481004F06DF /* Icon-57.png */,
 				1AF87B581F6F77D6007BE51C /* Info.plist */,
 				1AF87B591F6F77D6007BE51C /* LaunchScreen.storyboard */,
 				1AF87B5A1F6F77D6007BE51C /* LaunchScreenBackground.png */,
@@ -474,6 +478,7 @@
 				8C88045C21259A51006D3257 /* SideMenu.png in Resources */,
 				8C88045421259A51006D3257 /* SliderNode_Press.png in Resources */,
 				8C88045621259A51006D3257 /* Slider_PressBar.png in Resources */,
+				8C4DD19B212EC481004F06DF /* Icon-57.png in Resources */,
 				8C88045A21259A51006D3257 /* Slider_Back.png in Resources */,
 				521A8EA919F11F5000D177D7 /* fonts in Resources */,
 				8C88045821259A51006D3257 /* SliderNode_Normal.png in Resources */,
@@ -490,6 +495,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4DD19C212EC481004F06DF /* Icon-57.png in Resources */,
 				8C4612882129D3E9008E7158 /* il.png in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
 				8C88045521259A51006D3257 /* SliderNode_Press.png in Resources */,
