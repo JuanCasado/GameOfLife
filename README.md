@@ -6,6 +6,8 @@ This simulation was made with the cocos2d-x c++ engine. It simulates the Conway'
 The main purpose of the simulation was to practice and lear the basics of the cocos engine to be able to do some other and more complex projects with it in the future.
 The code basically extends the main classes of the engine adding them new properties and functionality.
 
+[Download for Android](https://play.google.com/store/apps/details?id=com.MrBlissfulGrin.GameOfLife "Game of Life Android app")
+
 [![Game of Life](http://img.youtube.com/vi/9dl4cAFmn5A/0.jpg)](https://youtu.be/9dl4cAFmn5A)
 
 Project done by Juan Casado Ballesteros
