@@ -67,8 +67,10 @@
 		8C88045E21259A51006D3257 /* WhiteRect.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C88045121259A51006D3257 /* WhiteRect.png */; };
 		8C88045F21259A51006D3257 /* WhiteRect.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C88045121259A51006D3257 /* WhiteRect.png */; };
 		8C88046021259C12006D3257 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A88B2631FC3D9C9005C14AE /* Images.xcassets */; };
-		8C95495E212D776400E1C3AB /* xbtt1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C95495B212D776300E1C3AB /* xbtt1.png */; };
-		8C95495F212D776400E1C3AB /* xbtt.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C95495D212D776300E1C3AB /* xbtt.png */; };
+		8C95496B212F19F900E1C3AB /* xbtt1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C954969212F19F800E1C3AB /* xbtt1.png */; };
+		8C95496C212F19F900E1C3AB /* xbtt1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C954969212F19F800E1C3AB /* xbtt1.png */; };
+		8C95496D212F19F900E1C3AB /* xbtt.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C95496A212F19F800E1C3AB /* xbtt.png */; };
+		8C95496E212F19F900E1C3AB /* xbtt.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C95496A212F19F800E1C3AB /* xbtt.png */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -169,8 +171,8 @@
 		8C88044F21259A51006D3257 /* Slider_Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slider_Back.png; sourceTree = "<group>"; };
 		8C88045021259A51006D3257 /* SideMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideMenu.png; sourceTree = "<group>"; };
 		8C88045121259A51006D3257 /* WhiteRect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteRect.png; sourceTree = "<group>"; };
-		8C95495B212D776300E1C3AB /* xbtt1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xbtt1.png; path = ../../ColorQueue/Resources/xbtt1.png; sourceTree = "<group>"; };
-		8C95495D212D776300E1C3AB /* xbtt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xbtt.png; path = ../../ColorQueue/Resources/xbtt.png; sourceTree = "<group>"; };
+		8C954969212F19F800E1C3AB /* xbtt1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xbtt1.png; sourceTree = "<group>"; };
+		8C95496A212F19F800E1C3AB /* xbtt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xbtt.png; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -307,8 +309,8 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8C95495D212D776300E1C3AB /* xbtt.png */,
-				8C95495B212D776300E1C3AB /* xbtt1.png */,
+				8C95496A212F19F800E1C3AB /* xbtt.png */,
+				8C954969212F19F800E1C3AB /* xbtt1.png */,
 				8C4612832129D3E9008E7158 /* ih.png */,
 				8C4612842129D3E9008E7158 /* il.png */,
 				8C88045021259A51006D3257 /* SideMenu.png */,
@@ -415,6 +417,7 @@
 					};
 					5087E73D17EB910900C73F5D = {
 						DevelopmentTeam = 282LBAJE6D;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -484,10 +487,12 @@
 				8C88045821259A51006D3257 /* SliderNode_Normal.png in Resources */,
 				3EACC98F19EE6D4300EB3C5E /* res in Resources */,
 				8C88045221259A51006D3257 /* SliderNode_Disable.png in Resources */,
+				8C95496D212F19F900E1C3AB /* xbtt.png in Resources */,
 				8C4612872129D3E9008E7158 /* il.png in Resources */,
 				1AF87B891F6F781D007BE51C /* LaunchScreenBackground.png in Resources */,
 				1AF87B881F6F781D007BE51C /* LaunchScreen.storyboard in Resources */,
 				8C88045E21259A51006D3257 /* WhiteRect.png in Resources */,
+				8C95496B212F19F900E1C3AB /* xbtt1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,14 +506,14 @@
 				8C88045521259A51006D3257 /* SliderNode_Press.png in Resources */,
 				8C4612862129D3E9008E7158 /* ih.png in Resources */,
 				8C88045321259A51006D3257 /* SliderNode_Disable.png in Resources */,
+				8C95496C212F19F900E1C3AB /* xbtt1.png in Resources */,
 				8C88045F21259A51006D3257 /* WhiteRect.png in Resources */,
 				8C88046021259C12006D3257 /* Images.xcassets in Resources */,
-				8C95495E212D776400E1C3AB /* xbtt1.png in Resources */,
 				3EACC99019EE6D4300EB3C5E /* res in Resources */,
 				8C88045721259A51006D3257 /* Slider_PressBar.png in Resources */,
 				8C88045B21259A51006D3257 /* Slider_Back.png in Resources */,
-				8C95495F212D776400E1C3AB /* xbtt.png in Resources */,
 				8C88045921259A51006D3257 /* SliderNode_Normal.png in Resources */,
+				8C95496E212F19F900E1C3AB /* xbtt.png in Resources */,
 				521A8EAA19F11F5000D177D7 /* fonts in Resources */,
 				8C88045D21259A51006D3257 /* SideMenu.png in Resources */,
 			);
@@ -644,7 +649,9 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = 282LBAJE6D;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -666,6 +673,7 @@
 					"$(_COCOS_LIB_MAC_END)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MrBlissfulGrin.GameOfLife;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_MAC_BEGIN) $(_COCOS_HEADER_MAC_END)";
 			};
 			name = Debug;
@@ -678,7 +686,9 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = 282LBAJE6D;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = mac/Prefix.pch;
@@ -699,6 +709,7 @@
 					"$(_COCOS_LIB_MAC_END)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MrBlissfulGrin.GameOfLife;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_MAC_BEGIN) $(_COCOS_HEADER_MAC_END)";
 			};
 			name = Release;
