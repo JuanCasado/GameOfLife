@@ -7,6 +7,7 @@ The main purpose of the simulation was to practice and lear the basics of the co
 The code basically extends the main classes of the engine adding them new properties and functionality.
 
 [Download for Android](https://play.google.com/store/apps/details?id=com.MrBlissfulGrin.GameOfLife "Game of Life Android app")
+[Download for iOS](https://itunes.apple.com/es/app/the-conways-game-of-life/id1433559955?l=en&mt=8 "Game of Life iOS app")
 
 [![Game of Life](http://img.youtube.com/vi/9dl4cAFmn5A/0.jpg)](https://youtu.be/9dl4cAFmn5A)
 
